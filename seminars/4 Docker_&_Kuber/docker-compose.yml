@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  my-service:
+    image: streamlit-service:latest
+  postgres:
+    image: postgres:13.3
+    environment:
+      POSTGRES_DB: "habrdb"
+      POSTGRES_USER: "habrpguser"
+      POSTGRES_PASSWORD: "pgpwd4habr"
+    ports:
+      - "5432:5432"
+    
