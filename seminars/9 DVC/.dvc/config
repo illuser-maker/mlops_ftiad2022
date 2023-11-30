@@ -1,0 +1,5 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = s3://gachi/my_data
+    endpointurl = http://127.0.0.1:9000

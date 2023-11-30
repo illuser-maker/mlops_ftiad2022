@@ -1,0 +1,6 @@
+dvc remote add -d myremote s3://gachi/my_data
+dvc remote modify myremote endpointurl http://127.0.0.1:9000
+
+dvc remote modify --local myremote access_key_id sX5roX3b4XtaEbeoWmGq
+
+dvc remote modify --local myremote secret_access_key vUWmonIGG7dtR2eBeRSaJs07gjwsfQTuyRXnPtxn
